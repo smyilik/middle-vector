@@ -9,10 +9,10 @@ using namespace std;
 vector <char> itc_strtlist(string str);                                                                              //01
 string itc_join(vector <char> lst, string sep);                                                                      //02
 string itc_rmstrspc(string str);                                                                                     //03
-string itc_rmstrspc(string str);                                                                                     //04
+string itc_rmstrchar(string str, string less);                                                                       //04
 long itc_sumlst(const vector <int>& lst);                                                                            //05
-string itc_rmstrchar(string str, string less);                                                                       //06
-long itc_sum_even_lst(const vector <int>& lst);                                                                      //07
+long itc_sum_even_lst(const vector <int>& lst);                                                                      //06
+long itc_sum_even_part_lst(const vector <int>& lst);                                                                 //07
 void itc_odd_even_separator_lst(const vector <int>& lst, vector <int>& lst1, vector <int>& lst2);                    //08
 void itc_pos_neg_separator_lst(const vector <int>& lst, vector <int>& lst1, vector <int>& lst2, vector <int>& lst3); //09
 void itc_odd_even_analysis_lst(const vector <int>& lst);                                                             //10
