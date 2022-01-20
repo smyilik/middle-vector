@@ -30,7 +30,7 @@ void itc_pos_neg_analysis_lst(const vector <int>& lst)
 void itc_pos_neg_analysis_lst_output(int positiveSize, int negativeSize, int maxPositive, int maxNegative, int minPositive,
 	int minNegative, int positiveSum, int negativeSum, double positiveAverage, double negativeAverage, int zeros)
 {
-	cout << "  Positive:\t\t\tNegative:" << endl
+	cout << "  Positive:\t\tNegative:" << endl
 		<< "  Amount of numbers: " << positiveSize << "\t\tAmount of numbers: " << negativeSize << endl
 		<< "  Maximum number: " << maxPositive << "\t\tMaximum number: " << maxNegative << endl
 		<< "  Minimum number: " << minPositive << "\t\tMinimum number: " << minNegative << endl
